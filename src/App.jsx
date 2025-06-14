@@ -73,7 +73,7 @@ export default function App() {
       </div>
 
       {/* Fixed input box */}
-      <div className="absolute bottom-0 left-0 w-full px-4 py-3 bg-gray-100 border-t">
+      <div className="absolute bottom-0 left-0 w-full px-4 py-3 bg-gray-100 ">
         <ChatInputBox onSend={handleSend} />
       </div>
     </div>
